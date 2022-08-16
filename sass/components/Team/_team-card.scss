@@ -1,0 +1,26 @@
+.team-card {
+     padding: 30px 10px;
+     
+
+     &__name {
+     color: $textTitleColor;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 1.2;
+     text-align: center;
+     margin-bottom: 10px;
+     margin-top: 0;
+}
+     &__speciality {
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 1.2;
+     color: $wightText;
+     margin-top: 0;
+     text-align: center;
+     margin-bottom: 16px;
+}
+}
+
+
+

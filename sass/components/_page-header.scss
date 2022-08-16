@@ -1,0 +1,12 @@
+.header {
+     background-color: $primaryBgc;
+     border-bottom: $headerBorder;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 1.14;
+}
+
+.header__container {
+     display: flex;
+     text-align: center;
+}

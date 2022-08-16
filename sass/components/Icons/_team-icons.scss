@@ -1,0 +1,11 @@
+.social-networks__icons {
+     display: flex;
+     fill: currentColor;
+
+     width: 20px;
+     height: 20px;
+}
+
+.social-networks__icons:hover {
+     color: $wightText;
+}

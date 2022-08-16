@@ -1,0 +1,57 @@
+.card-set {
+     list-style: none;
+     text-decoration: none;
+     display: flex;
+     flex-wrap: wrap;
+     margin-right: 0;
+     margin-left: 0;
+     margin-bottom: 0;
+     gap: 30px;
+
+     &__item {
+     font-size: 16px;
+     line-height: 1.9;
+     margin-right: 0;
+     margin-left: 0;
+
+        &:nth-child(3n) {
+     margin-right: 0;
+         }
+     }
+     &__link {
+     text-decoration: none;
+     width: 370px;
+     margin-top: 0;
+     margin-right: 0;
+
+     transition: $transitionBoxShadow;
+
+       &:hover {
+     display: block;
+     box-shadow: $portfolioShadowCard;
+       }
+       &:focus {
+      display: block;
+      box-shadow: $portfolioShadowCard;
+     }
+}
+}
+.card-set__link:hover .card__text,
+.card-set__link:focus .card__text {
+     transform: translateY(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

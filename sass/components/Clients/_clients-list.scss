@@ -1,0 +1,32 @@
+.clients-list {
+     display: flex;
+     gap: 30px;
+     list-style: none;
+}
+
+.clients-list__item {
+     width: 170px;
+     height: 92px;
+}
+
+.clients-list__link {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     width: 100%;
+     height: 100%;
+
+     transition: $transitionColor, $transitionBorder;
+
+     color: $primaryIconColor;
+     border: 1px solid $primaryIconColor;
+     border-radius: 4px;
+}
+
+
+.clients-list__link:hover,
+.clients-list__link:focus {
+     border: 1px solid $buttonColor;
+     color: $buttonColor;
+}
