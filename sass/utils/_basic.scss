@@ -25,11 +25,7 @@ button {
      outline: none;
 }
 
-.container {
-     margin: 0 auto;
-     padding: 0 15px;
-     width: 1200px;
-}
+
 
 .section {
      padding: 94px 0;
@@ -47,7 +43,11 @@ button {
 .link {
      text-decoration: none;
 }
-
+.title {
+     margin-bottom: 30px;
+      
+     // @media screen and (min-width:)
+}
 .title--hidden {
      position: absolute;
      width: 1px;
