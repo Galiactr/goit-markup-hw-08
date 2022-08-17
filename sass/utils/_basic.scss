@@ -1,9 +1,16 @@
+html {
+     scroll-behavior: smooth;
+}
 body {
-     font-family: "Roboto", sans-serif;
+     font-family: "Roboto", $fontFamily;
      /* width: 1600px; */
      letter-spacing: 0.03em;
 }
-
+img {
+     display: block;
+     max-width: 100%;
+     height: auto;
+}
 p,
 h1,
 h2,
@@ -13,6 +20,9 @@ ul {
      margin: 0;
      padding: 0;
 }
+ul {
+     list-style: none;
+     }
 
 img {
      display: block;
@@ -47,6 +57,27 @@ button {
 .link {
      text-decoration: none;
 }
+.title {
+     margin-bottom: 30px;
+
+     font-weight: 700;
+     font-size: 28px;
+     line-height: 1.18;
+     text-align: center;
+
+     color: $titleTextColor;
+
+     @media screen and (min-width: $tablet) {
+          margin-bottom: 30px;
+     }
+
+     @media screen and (min-width: $desktop) {
+          margin-bottom: 50px;
+
+          font-size: 36px;
+          line-height: 1.17;
+     }
+}
 
 .title--hidden {
      position: absolute;
@@ -58,5 +89,9 @@ button {
      white-space: nowrap;
      clip-path: inset(100%);
      clip: rect(0 0 0 0);
+     overflow: hidden;
+}
+
+body.modal-open {
      overflow: hidden;
 }

@@ -69,12 +69,27 @@ button {
   font-size: 14px;
   line-height: 1.14;
 }
+@media screen and (max-width: 767px) {
+  .header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    padding: 10px 0;
+  }
+}
 
 .header__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .header__container {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
 .nav {
