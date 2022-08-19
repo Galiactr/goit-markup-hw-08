@@ -2,7 +2,7 @@ html {
      scroll-behavior: smooth;
 }
 body {
-     font-family: "Roboto", $fontFamily;
+     font-family: "Roboto", sans-serif;
      /* width: 1600px; */
      letter-spacing: 0.03em;
 }
@@ -65,7 +65,7 @@ button {
      line-height: 1.18;
      text-align: center;
 
-     color: $titleTextColor;
+     color: $textTitleColor;
 
      @media screen and (min-width: $tablet) {
           margin-bottom: 30px;
