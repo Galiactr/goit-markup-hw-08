@@ -9,51 +9,13 @@
      margin-right: auto;
      margin-left: auto;
 
-     // background-image: linear-gradient(to right,
-     //           rgba(47, 48, 58, 0.4),
-     //           rgba(47, 48, 58, 0.4)),
-     //      url(../images/Img_hero.jpg);
-     // background-position: center;
-     // background-repeat: no-repeat;
-     // background-size: cover;
-
-     @media (min-device-pixel-ratio: 2),
-          (-webkit-min-device-pixel-ratio: 2),
-          (min-resolution: 192dpi),
-          (min-resolution: 2dppx) {
-               background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-                    url("../images/Img_hero.jpg");
-          }
-
-    @media screen and (min-width: $tablet) {
-         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-              url("../images/Img_hero.jpg");
-
-         @media (min-device-pixel-ratio: 2),
-         (-webkit-min-device-pixel-ratio: 2),
-         (min-resolution: 192dpi),
-         (min-resolution: 2dppx) {
-              background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-                   url("../images/Img_hero.jpg");
-         }
-    }
-    @media screen and (min-width: $desktop) {
-         padding: 200px 0;
-         margin-right: auto;
-         margin-left: auto;
-         max-width: 1600px;
-
-         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-              url("../images/Img_hero.jpg");
-
-         @media (min-device-pixel-ratio: 2),
-         (-webkit-min-device-pixel-ratio: 2),
-         (min-resolution: 192dpi),
-         (min-resolution: 2dppx) {
-              background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-                   url("../images/Img_hero.jpg");
-         }
-    }
+     background-image: linear-gradient(to right,
+               rgba(47, 48, 58, 0.4),
+               rgba(47, 48, 58, 0.4)),
+          url(../images/Img_hero.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
 }
 
 .hero__container {
@@ -70,11 +32,4 @@
      line-height: 1.4;
      letter-spacing: 0.06em;
      text-transform: uppercase;
-
-     @media screen and (min-width: $desktop) {
-     min-width: 696px;
-     
-     font-size: 44px;
-     line-height: 1.36;
-          }
 }
