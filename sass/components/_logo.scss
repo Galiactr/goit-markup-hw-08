@@ -1,35 +1,26 @@
-.page-header__logo {
+.logo {
      text-decoration: none;
-     font-family: "Raleway", sans-serif;
-     color: $textTitleColor;
+     color: #000000;
+     font-family: Raleway, $fontFamily;
      font-weight: 700;
      font-size: 26px;
-     line-height: 1.2;
-     margin-top: 0;
-     margin-bottom: 0;
-     margin-right: 93px;
+     line-height: 1.19;
 
-}
-
-.page-header-logo__accent {
-     color: $buttonColor;
-}
-.footer__logo {
-     text-decoration: none;
-     font-family: "Raleway", sans-serif;
-     color: $buttonColor;
-     font-weight: 700;
-     font-size: 26px;
-     line-height: 1.2;
-     display: block;
-     margin-bottom: 20px;
+     &__accent {
+          color: $accentColor;
+     }
 
      
+
+     &.page-header__logo {
+          margin-right: 93px;
+     }
 }
 
+.logo--white {
+          color:$rareTextColor; 
+}
 .logo__accent {
-     color: $wightText;
+     color: $accentColor;;
      font-weight: 700;
 }
-
-

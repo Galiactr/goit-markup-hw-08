@@ -1,50 +1,38 @@
 .filter {
-     list-style: none;
      display: flex;
-     justify-content: center;
-     margin-right: 0;
-     margin-top: 0;
+     flex-wrap: wrap;
      margin-bottom: 50px;
+     column-gap: 8px;
 
-     &__item {
-     margin-right: 8px;
-
-       &:nth-child(5n) {
-     margin-right: 0;
-       }
+     @media screen and (max-width: 767px) {
+          row-gap: 15px;
      }
 
-     &__btn {
+     @media screen and (min-width: $tablet) {
+          justify-content: center;
+     }
+}
+
+.filter__btn {
      padding: 6px 22px;
      border-radius: 4px;
      border-color: transparent;
 
-     color: $textTitleColor;
-     background-color: #f5f4fa;
      font-weight: 500;
      font-size: 16px;
      line-height: 1.6;
      letter-spacing: 0.03em;
+
+     transition: $transitionColor, $transitionBgc, $transitionBoxShadow;
+
+     color: $titleTextColor;
+     background-color: $tertiaryBgc;
      cursor: pointer;
 
-     transition: $transitionBgc, $transitionColor,
-          $transitionBoxShadow;
-
-     &:hover {
-     color: $wightText;
-     background-color: $buttonColor;
-     box-shadow: $portfolioBtnShadow;
-}
+     &:hover,
      &:focus {
-     color: $wightText;
-     background-color: $buttonColor;
-     box-shadow: $portfolioBtnShadow;
+          color: $rareTextColor;
+          background-color: $accentColor;
+          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
      }
 }
-}
-
-.all {
-     color: $wightText;
-     background-color: $buttonColor;
-}
-
