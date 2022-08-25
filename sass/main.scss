@@ -1,14 +1,32 @@
 @import "./utils/variables";
 @import "./utils/breakpoint";
 @import "./utils/placeholder";
-@import "./utils/base.scss";
+@import "./utils/container";
 @import "./components/basic";
-@import "./components/company-logo";
-@import "./components/container";
-@import "./components/features";
-@import "./components/pge-header";
-@import "./components/reviewsl";
-@import "./components/section";
-
-
+@import "./components/social-networks";
+@import "./components/logo";
+@import "./components/header/page-header";
+@import "./components/header/nav-header";
+@import "./components/header/contact-header";
+@import "./components/header/mob-menu/menu";
+@import "./components/header/mob-menu/mob-sotial-menu";
+@import "./components/studio/hero";
+@import "./components/studio/features";
+@import "./components/studio/activity";
+@import "./components/studio/team";
+@import "./components/studio/team-sotialnet";
+@import "./components/studio/clients";
+@import "./components/portfolio/portfolio-filter";
+@import "./components/portfolio/portfolio-card";
+@import "./components/portfolio/portfolio-cardset";
+@import "./components/footer/footer-one";
+@import "./components/footer/footer-two";
+@import "./components/footer/footer-three";
+@import "./components/modal/modal";
+@import "./components/modal/backdrop";
+@import "./components/modal/btn-modal";
+@import "./components/modal/name";
+@import "./components/modal/comentary-field";
+@import "./components/modal/checkbox";
+@import "./components/modal/oder-form";
 
