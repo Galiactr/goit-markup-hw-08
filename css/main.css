@@ -202,7 +202,6 @@ body.modal-open {
 }
 @media screen and (max-width: 767px) {
   .page-header {
-    position: fixed;
     z-index: 1;
     width: 100%;
     padding: 10px 0;
@@ -564,12 +563,6 @@ body.modal-open {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-}
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../img/hero/background-mobile@2x.jpg");
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/background-mobile@2x.jpg");
-  }
 }
 @media screen and (min-width: 768px) {
   .hero {
